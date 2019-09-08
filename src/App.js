@@ -7,7 +7,7 @@ class App extends Component {
     super();
 
     this.state = {
-      string: 'Hello I am Frankenstein'
+      string: 'Hello I am Dracula'
     };
   }
 
@@ -19,7 +19,7 @@ class App extends Component {
           <p>
             {this.state.string}
           </p>
-          <button onClick={() => this.setState({ string: 'Hello I am Dracula' })}>Click Me: Change Monsters</button>
+          <button onClick={() => this.setState({ string: 'Hello I am Frankenstein' })}>Click Me: Change Monsters</button>
         </header>
       </div>
     );
